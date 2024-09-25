@@ -1,0 +1,58 @@
+#gridContainer {
+  max-height: 800px;
+}
+
+.options {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+  position: relative;
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.option {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.option-caption {
+  white-space: nowrap;
+  margin: 0 8px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#calender{
+  height: 20px;
+}
